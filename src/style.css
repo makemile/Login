@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2? family= Kumbh+Sans:wght@100 & family= Open+Sans & display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f7f8fc;
+    color: #141c2c;
+    font-family: "Open Sans", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+
+  a{
+      color: #2761eb;
+      text-decoration: none;
+  }
+
+  .container{
+      background-color: #fff;
+      border-radius: 3px;
+      border: 20px solid #dce7ff;
+      width: 1000px;
+      max-width: 100%;
+      display: flex;
+      box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.1);
+  }
+
+  form{
+      border-right: 1px solid #ecf2ff;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 40px;
+
+  }
+
+  .btn{
+      background-color: #141c2c;
+      border: 2px solid #141c2c;
+      border-radius: 3px;
+      color: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: inherit;
+      font-weight: bold;
+      font-size: 14px;
+      padding: 10px;
+      margin: 20px 0;
+      width: 100%;
+
+  }
